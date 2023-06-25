@@ -3,9 +3,9 @@ import preset from 'jss-preset-default'
 
 jss.setup(preset())
 
-const _jss = create()
+const jssInstnace = create()
 
-const { classes } = _jss
+const { classes } = jssInstnace
   .createStyleSheet({
     theme: {
       backgroundColor: 'red',

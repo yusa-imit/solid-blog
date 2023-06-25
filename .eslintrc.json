@@ -20,8 +20,8 @@
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
-    "import/no-unresolved": "never",
-    "import/extensions": ["error", "ignorePackages", { "": "never" }],
+    "import/no-unresolved": "off",
+    "import/extensions": ["error", "ignorePackages", { "": "off" }],
     "import/no-extraneous-dependencies": "warn"
   }
 }
